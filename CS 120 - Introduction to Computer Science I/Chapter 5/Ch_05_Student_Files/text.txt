@@ -1,0 +1,15 @@
+The above list formed the basis of our proposed cybersecurity program.
+The initial thought was to hire an experienced cybersecurity professional
+to develop our program, to hopefully start (with the first three classes)
+in the Fall of 2019.   However, we have so far not identified any viable
+candidates from the received applications.   We therefore propose to develop
+the course in-house, using the course development expertise that Patrick Kopp
+and Bill Moran have successfully applied to the many courses in the current
+program.   
+Looking at the landscape of cybersecurity issues, many of the attacks could
+have and should have been prevented.  In most cases, the attacks on individual
+and companies were due to a lack of vigilance.  For example, the massive attack
+on Experian, that released most of the private data to hackers from millions of
+consumers was due to a vulnerability that had been identified, and for which a
+patch had been provided by Microsoft a month earlier, but which Experian had
+failed to apply.  Had they done so, events may have turned out very differently. 

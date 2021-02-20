@@ -1,0 +1,22 @@
+Cyber security touches nearly every part of our daily lives. Moreover, economic vitality, and national 
+security depend on a stable, safe, and resilient cyberspace.  We rely on this vast array of networks to
+communicate and travel, power our homes, run our economy, and provide government services. However, cyber
+intrusions and attacks have increased dramatically over the last decade, exposing sensitive personal and
+business information, disrupting critical operations, and imposing high costs on the economy. The nation
+has a significant shortage of cyber security professionals who can understand and effectively thwart the
+growing threats. As a result, education and training in cyber security has become a national priority.
+Students are also eager to acquire more knowledge and skills in this critical area.
+
+These are the reasons we started the Cyber Defense Club at Kansas State University. The goal of the Cyber
+Defense Club is to teach K-State students the critical knowledge and skills needed to administer and
+defend computer networks and systems. As part of the CDC, we are offering two hands-on experience courses.
+During the class meetings, CDC members discuss and demonstrate various security topics by focusing on a
+number of security and hacking tools. Led by the instructor, students practice using or defending against
+those techniques and discuss how to secure services, applications and operating systems. All CDC activities
+are performed in an isolated lab network, which is behind a restrictive firewall and consists of both
+physical and virtual infrastructures.
+In this paper, we present how we set up the lab, teach the courses, and organize the CDC activities.
+We hope this information can prove useful for faculty and system administrators who want to set up similar
+educational infrastructures in their own institution, and design hands-on courses in cyber security. We
+also share our experience of teaching the CDC course and advising CDC activities at K-State, with both
+success stories and lessons learned.
