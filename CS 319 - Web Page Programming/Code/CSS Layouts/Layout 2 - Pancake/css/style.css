@@ -1,0 +1,28 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]  */
+    /*  If we don't want the items to stretch:    */
+    /* flex: 0 1 300px;  */
+    /*  If we do want the items to stretch:   */
+    flex: 1 1 400px;
+    align-items: center; 
+    border: 1px solid green;
+    border-radius: 25px;
+    background: rgb(230, 255, 242); 
+    font-size: 2rem;
+    margin: 5px;
+    height: 250px; 
+ }
+  
+  body {
+    font-family: system-ui, serif;
+  }

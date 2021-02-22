@@ -8,3 +8,5 @@
   - Assembly
 - CS 314 - Object Oriented Programming in Java
   - Java
+- CS 319 - Web Page Programming
+  - Javascript
