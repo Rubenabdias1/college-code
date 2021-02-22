@@ -26,8 +26,7 @@ class Procedure:
         self.charge = newCharge
 
     def __str__(self):
-        formattedDate = self.date.strftime("%b %d, %Y")
         return "Procedure name: " + self.name + \
-        "\n" + "Date: " + formattedDate +  \
+        "\n" + "Date: " + self.date +  \
         "\n" + "Practitioner: " + self.practicionerName + \
         "\n" + "Charge: " + str(self.charge)
