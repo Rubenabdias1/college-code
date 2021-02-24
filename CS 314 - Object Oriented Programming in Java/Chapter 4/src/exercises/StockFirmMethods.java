@@ -15,7 +15,7 @@ private double total;
         total=0;
     }
 
-    public StockFirmMethods(String stock, double price, int quantity, double total) {
+    public StockFirmMethods(String stock, double price, int quantity) {
         this.stock=stock;
         this.price=price;
         this.quantity=quantity;
