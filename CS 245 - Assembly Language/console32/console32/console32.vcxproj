@@ -109,6 +109,7 @@
   <ItemGroup>
     <MASM Include="data.asm" />
     <MASM Include="Example.asm" />
+    <MASM Include="perimeter.asm" />
     <MASM Include="sum2.asm" />
     <MASM Include="sum3.asm" />
   </ItemGroup>
