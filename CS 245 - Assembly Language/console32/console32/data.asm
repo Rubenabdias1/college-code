@@ -9,11 +9,11 @@ byte2	BYTE	0B7h
 byte3	BYTE	253
 
 .CODE
-main	PROC
+main5	PROC
 		add eax, -45
 
 		mov eax, 0
 		ret
-main	ENDP
+main5	ENDP
 
 END

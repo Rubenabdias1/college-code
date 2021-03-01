@@ -27,5 +27,8 @@
     <MASM Include="data.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="perimeter.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

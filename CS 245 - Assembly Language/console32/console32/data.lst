@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler Version 14.00.24234.1	    02/28/21 18:02:45
+Microsoft (R) Macro Assembler Version 14.00.24234.1	    03/01/21 12:58:23
 data.asm						     Page 1 - 1
 
 
@@ -13,15 +13,15 @@ data.asm						     Page 1 - 1
  00000002 FD			byte3	BYTE	253
 
  00000000			.CODE
- 00000000			main	PROC
+ 00000000			main5	PROC
  00000000  83 C0 D3				add eax, -45
 
  00000003  B8 00000000				mov eax, 0
  00000008  C3					ret
- 00000009			main	ENDP
+ 00000009			main5	ENDP
 
 				END
-Microsoft (R) Macro Assembler Version 14.00.24234.1	    02/28/21 18:02:45
+Microsoft (R) Macro Assembler Version 14.00.24234.1	    03/01/21 12:58:23
 data.asm						     Symbols 2 - 1
 
 
@@ -41,7 +41,7 @@ Procedures, parameters, and locals:
 
                 N a m e                 Type     Value    Attr
 
-main . . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000009 Public
+main5  . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000009 Public
 
 
 Symbols:
