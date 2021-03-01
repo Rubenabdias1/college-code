@@ -1,19 +1,18 @@
 .586
 .MODEL FLAT
+
 .STACK 4096
 
 .DATA
-number	DWORD	-105
-sum		DWORD	?
+number	DWORD	45h
 
 .CODE
-main	PROC
-		mov		eax, number
-		add		eax, 158
-		mov		sum, eax
+main3	PROC
+		mov eax, number
+		add eax, 45
 
-		mov		eax, 0
+		mov eax, 0
 		ret
+main3	ENDP
 
-main	ENDP
 END

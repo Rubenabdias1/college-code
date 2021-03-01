@@ -18,5 +18,14 @@
     <MASM Include="Example.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="sum2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="sum3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="data.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
