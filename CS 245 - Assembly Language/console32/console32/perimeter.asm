@@ -10,7 +10,7 @@ height		DWORD	27
 perimeter	DWORD	?
 
 .CODE
-main		PROC
+main6		PROC
 			mov eax, wide
 			add eax, wide
 			mov ebx, height
@@ -20,5 +20,5 @@ main		PROC
 
 			mov eax, 0
 			ret
-main		ENDP
+main6		ENDP
 END

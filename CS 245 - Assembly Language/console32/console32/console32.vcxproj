@@ -110,8 +110,12 @@
     <MASM Include="data.asm" />
     <MASM Include="Example.asm" />
     <MASM Include="perimeter.asm" />
+    <MASM Include="porque.asm" />
+    <MASM Include="program1extra.asm" />
+    <MASM Include="programAssignment1.asm" />
     <MASM Include="sum2.asm" />
     <MASM Include="sum3.asm" />
+    <MASM Include="testing.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

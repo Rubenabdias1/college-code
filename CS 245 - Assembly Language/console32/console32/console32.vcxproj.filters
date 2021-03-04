@@ -30,5 +30,17 @@
     <MASM Include="perimeter.asm">
       <Filter>Source Files</Filter>
     </MASM>
+    <MASM Include="programAssignment1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="program1extra.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="testing.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="porque.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
