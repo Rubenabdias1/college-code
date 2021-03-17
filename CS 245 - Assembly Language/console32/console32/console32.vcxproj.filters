@@ -15,31 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Example.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="sum2.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="sum3.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="data.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="perimeter.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="programAssignment1.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="program1extra.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="testing.asm">
-      <Filter>Source Files</Filter>
-    </MASM>
-    <MASM Include="porque.asm">
+    <MASM Include="test1.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

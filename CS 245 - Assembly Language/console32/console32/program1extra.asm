@@ -19,7 +19,7 @@ diff		DWORD	?
 
 
 .CODE
-main		PROC
+main233		PROC
 			;number1	number2		sum			diff		eax
 			;FFFF FF97	0000 009E	0000 0000	0000 0000	undefined (random)
 			
@@ -54,6 +54,6 @@ main		PROC
 			;FFFF FF97	0000 009E	0000 0035	FFFF FC4D	0000 0000
 
 			ret					; Returns from the procedure.
-main		ENDP
+main233		ENDP
 
 END

@@ -16,8 +16,8 @@ prompt1 BYTE    "Enter first number", 0
 prompt2 BYTE    "Enter second number", 0
 string  BYTE    40 DUP (?)
 resultLbl BYTE  "The sum is", 0
-sum     BYTE    11 DUP (?), 0
-
+sum     BYTE    11 DUP (?), " total", 0
+value	DWORD	?
 .CODE
 _MainProc PROC
         input   prompt1, string, 40      ; read ASCII characters
@@ -30,7 +30,7 @@ _MainProc PROC
         
         mov     eax, number1    ; first number to EAX
         add     eax, number2    ; add second number
-        dtoa    sum, eax        ; convert to ASCII characters
+        dtoa    sum, value        ; convert to ASCII characters
         output  resultLbl, sum          ; output label and sum
 
         mov     eax, 0  ; exit with return code 0
