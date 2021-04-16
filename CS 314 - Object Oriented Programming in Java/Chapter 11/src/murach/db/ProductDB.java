@@ -1,5 +1,6 @@
 package murach.db;
 
+import murach.business.Album;
 import murach.business.Book;
 import murach.business.Product;
 import murach.business.Software;
@@ -42,7 +43,14 @@ public class ProductDB {
             s.setPrice(0.00);
             s.setVersion("4.4.2");
             p = s; // set Product object equal to the Software object
-        }
+        } else if (productCode.equalsIgnoreCase("sgtp")) {
+            Album s = new Album();
+            s.setCode("sgtp");
+            s.setDescription("Sgt. Peppers Lonely Hearts Club Band");
+            s.setPrice(14.99);
+            s.setArtist("The Beatles");
+            p = s; // set Product object equal to the Software object
+        } 
         return p;
     }
 }
