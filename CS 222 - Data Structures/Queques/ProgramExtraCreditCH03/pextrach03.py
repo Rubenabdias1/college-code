@@ -88,7 +88,7 @@ def simulation(numSeconds, itemPerMinute):
             checkoutQueue.enqueue(newCustomer)
         if(not checkoutLine.busy()) and (not checkoutQueue.isEmpty()):
             nextCustomer = checkoutQueue.dequeue()
-            waitingTimes.append(nextCustomer.getStamp())
+            waitingTimes.append(nextCustomer.waitTime(currentSecond))
             checkoutLine.serveNext(nextCustomer)
         
         checkoutLine.tick()
