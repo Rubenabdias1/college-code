@@ -4,7 +4,11 @@ Class and Section:	    CS 222 01
 Assignment:		        Program Extra Credit Chapter 3
 Due Date:		        Friday, April 16, 2021
 Date Turned in:         Friday, April 16, 2021
-Program Description:	A grocery store checkout line simulator that enqueues customers as they arrive. 
+Program Description:	A grocery store checkout line simulator that enqueues customers as they arrive.
+                        Customers can have from 5 up to 15 items. The rate of the checkout line is 1 item
+                        per minute. And a customer gets to the checkout every 1-5 minutes. The program will
+                        calculate the average wait time for every customer that was served, and it will
+                        display the amount of customers left to be served. 
 """
 import random
 from qu import Qu
@@ -76,6 +80,7 @@ def simulation(numSeconds, itemPerMinute):
         "size": None,
     }
     for currentSecond in range(numSeconds):
+        time.sleep(1)
         newLog = buildLog(("IDLE", "Working...")[checkoutLine.busy()], ((checkoutLine.getTimeRemaining() )  // 60) + 1, ((nextCustomerWillArriveAt - currentSecond + 1)  // 60) + 1, checkoutQueue.size())
         shouldPrint = compareLogs(log, newLog)
         if(shouldPrint):
