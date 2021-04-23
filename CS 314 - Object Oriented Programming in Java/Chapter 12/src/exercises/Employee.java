@@ -12,6 +12,10 @@ public class Employee implements Displayable, DepartmentsConstants {
         this.firstName = firstName;
     }
     
+    public String getDisplayText() {
+    	return firstName + " " + lastName;
+    }
+    
     @Override
     public String toString() {
     	String text = "";

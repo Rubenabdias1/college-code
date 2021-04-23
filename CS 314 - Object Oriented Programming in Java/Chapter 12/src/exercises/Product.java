@@ -53,4 +53,9 @@ public class Product implements Displayable {
     public String toString() {
     	return getDescription();
     }
+    
+    public String getDisplayText() {
+    	return code + " " + description + " " + price;
+    }
+    
 }
