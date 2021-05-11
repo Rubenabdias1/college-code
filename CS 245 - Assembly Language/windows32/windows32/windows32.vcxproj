@@ -105,8 +105,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <MASM Include="final.project.asm" />
     <MASM Include="io.asm" />
-    <MASM Include="pa02ch3.asm" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="framework.c" />
