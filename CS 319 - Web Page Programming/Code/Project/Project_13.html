@@ -1,0 +1,52 @@
+<!--  assign functions to buttons  -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Javascript calculator" />
+		<meta name="viewport" content="width=device-width,
+		inital-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style3.css">
+		
+		<title>Online Calculator</title>
+	</head>
+	<body>
+		<h1>Basic Calculator</h1>
+		<br/>
+		<form id="myform" name="calc">
+		<input name="display" style="width:640px; height:100px; text-align:
+		center; background-color:#1f80c9;"> <br/>
+		<input type="button" value="0" OnClick="calc.display.value+='0'" >			<!-- 0 button -->
+		<input type="button" value="1" OnClick="calc.display.value+='1'" >			<!-- 1 button -->
+		<input type="button" value="2" OnClick="calc.display.value+='2'" >			<!-- 2 button -->
+		<input type="button" value="+" OnClick="calc.display.value+='+'"  
+			style="background-color:#cc5c11;"> <br/>								<!-- + button -->
+		<input type="button" value="3" OnClick="calc.display.value+='3'" >			<!-- 3 button -->
+		<input type="button" value="4" OnClick="calc.display.value+='4'" >			<!-- 4 button -->
+		<input type="button" value="5" OnClick="calc.display.value+='5'" >			<!-- 5 button -->
+		<input type="button" value="-" OnClick="calc.display.value+='-'"  
+			style="background-color:#ba55d3;" > <br/>								<!-- - button -->
+		<input type="button" value="6" OnClick="calc.display.value+='6'" >			<!-- 6 button -->
+		<input type="button" value="7" OnClick="calc.display.value+='7'" >			<!-- 7 button -->
+		<input type="button" value="8" OnClick="calc.display.value+='8'" >			<!-- 8 button -->
+		<input type="button" value="x" OnClick="calc.display.value+='*'"  
+			style="background-color:#7db1b2;" > <br/>								<!-- x button -->
+		<input type="button" value="9" OnClick="calc.display.value+='9'" >			<!-- 9 button -->
+		<input type="button" value="&#x221a;" OnClick="calc.display.value= Math.sqrt(calc.display.value)" 
+		style="background-color:#99ccff;" >	<!-- Sqr Root button -->
+		<input type="button" value="&pi;" OnClick="calc.display.value+='3.141592654'" 
+		style="background-color:#99ccff;" >											<!-- PI button --> 
+		<input type="button" value="&#247;" OnClick="calc.display.value+='/'"   
+			style="background-color:green;" > <br/>									<!-- / button -->
+		<input type="button" value="." OnClick="calc.display.value+='.'" > 			<!-- . button -->
+		<input type="button" value="x^2 " OnClick="calc.display.value=eval(
+			calc.display.value*calc.display.value)" 
+		style="background-color:#99ccff;" >											<!-- x^2 button -->
+		<input type="button" value="C" OnClick="calc.display.value=''"  
+			style="background-color:#cc0000;" >										<!-- C button -->
+		<input type="button" value="=" OnClick="calc.display.value=eval(
+				calc.display.value)" >												<!-- = button -->
+		
+		
+	</body>
+</html>

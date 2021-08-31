@@ -1,0 +1,62 @@
+Microsoft (R) Macro Assembler Version 14.00.24234.1	    03/03/21 19:30:01
+sum3.asm						     Page 1 - 1
+
+
+				.586
+				.MODEL FLAT
+
+				.STACK 4096
+
+ 00000000			.DATA
+ 00000000 FFFFFF45		number	DWORD	0FFFFFF45h
+
+ 00000000			.CODE
+ 00000000			main1	PROC
+ 00000000  A1 00000000 R			mov eax, number
+ 00000005  83 C0 D3				add eax, -45
+
+ 00000008  B8 00000000				mov eax, 0
+ 0000000D  C3					ret
+ 0000000E			main1	ENDP
+
+				END
+Microsoft (R) Macro Assembler Version 14.00.24234.1	    03/03/21 19:30:01
+sum3.asm						     Symbols 2 - 1
+
+
+
+
+Segments and Groups:
+
+                N a m e                 Size     Length   Align   Combine Class
+
+FLAT . . . . . . . . . . . . . .	GROUP
+STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000004 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 0000000E Para	  Public  'CODE'	
+
+
+Procedures, parameters, and locals:
+
+                N a m e                 Type     Value    Attr
+
+main1  . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 0000000E Public
+
+
+Symbols:
+
+                N a m e                 Type     Value    Attr
+
+@CodeSize  . . . . . . . . . . .	Number	 00000000h   
+@DataSize  . . . . . . . . . . .	Number	 00000000h   
+@Interface . . . . . . . . . . .	Number	 00000000h   
+@Model . . . . . . . . . . . . .	Number	 00000007h   
+@code  . . . . . . . . . . . . .	Text   	 _TEXT
+@data  . . . . . . . . . . . . .	Text   	 FLAT
+@fardata?  . . . . . . . . . . .	Text   	 FLAT
+@fardata . . . . . . . . . . . .	Text   	 FLAT
+@stack . . . . . . . . . . . . .	Text   	 FLAT
+number . . . . . . . . . . . . .	DWord	 00000000 _DATA	
+
+	   0 Warnings
+	   0 Errors

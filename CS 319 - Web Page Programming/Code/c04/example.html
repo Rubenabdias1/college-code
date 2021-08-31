@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bullseye! Tutoring</title>
+    <link rel="stylesheet" href="css/c04.css" />
+  </head>
+  <body>
+    <div id="input">
+      <form >    <!-- action="/action_page.php"-->
+        <label for="nRows">Number of Rows</label>
+        <input type="text" id="nrows" name="nrows"><br><br>
+        Select opperator type:
+        <select id="mySelect">
+          <option value="mult">multiplication</option>
+          <option value="add">addition</option>
+          <option value="sub">Subtraction</option>
+          <option value="div">Division</option>
+        </select>
+        
+        <div id="calc">  <button class="button" href="javascript:void(0);" onclick="calcValues()">Calculate</div>  
+      </form>
+    </div>
+    <section id="page2">
+      <h1>Bullseye</h1>
+      <img src="images/teacher.png" id="teacher2" alt="" />
+      <section id="blackboard"></section>
+    </section>
+    <script src="js/example.js"></script>
+  </body>
+</html>
