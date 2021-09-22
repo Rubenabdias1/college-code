@@ -6,6 +6,10 @@
   - Python
 - CS 245 - Assembly Language
   - Assembly
+- CS 313 - Object Oriented Programming in C#
+  - C#
+  - .NET
+  - Windows Forms
 - CS 314 - Object Oriented Programming in Java
   - Java
 - CS 319 - Web Page Programming
