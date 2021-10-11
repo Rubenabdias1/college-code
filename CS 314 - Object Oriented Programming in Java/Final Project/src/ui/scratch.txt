@@ -1,0 +1,23 @@
+
+        String choice = "y";
+        while (choice.equalsIgnoreCase("y")) {
+            String stockQuote = Console.getString("Enter Stock code: ");
+            
+            Stock stock = StockDB.getStock(stockQuote);
+            if (stock == null) {
+            	System.out.println("The stock code does not match our records.\n");
+            	continue;
+            }
+            list.append(
+                StringUtil.pad(stock.getQuote(), CODE_WIDTH));
+            list.append(
+                StringUtil.pad(stock.getDescription(), DESC_WIDTH));
+            list.append(
+                StringUtil.pad(stock.getPriceFormatted(), PRICE_WIDTH));
+            list.append("\n");            
+
+            // see if the user wants to continue
+            choice = Console.getString("Another stock? (y/n): ");
+            System.out.println();
+        }
+        System.out.println(list);
