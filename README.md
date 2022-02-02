@@ -1,5 +1,7 @@
 # Avila University Code
 
+Assignments and exercises from my college courses.
+
 - CS 120 - Intro to Computer Science I
   - Python
 - CS 222 - Data Structures
