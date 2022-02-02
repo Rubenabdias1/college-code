@@ -4,6 +4,8 @@
   - Python
 - CS 222 - Data Structures
   - Python
+- CS 225 - Secure Programming
+  - C
 - CS 245 - Assembly Language
   - Assembly
 - CS 313 - Object Oriented Programming in C#
@@ -14,3 +16,6 @@
   - Java
 - CS 319 - Web Page Programming
   - Javascript
+- CS 365 - Program Language Systems
+  - Python
+  - C++
