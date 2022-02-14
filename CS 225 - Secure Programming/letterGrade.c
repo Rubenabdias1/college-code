@@ -9,26 +9,28 @@ int main(void) {
     scanf("%d", &grade); // read an integer
     if (grade > 100) {
         puts("The grade is greater than 100");
+        
+    } else if (grade < 0) {
+        puts("The grade is less than 0");
     }
-    
-    if (grade < 0) {
-        puts("The grade is les than 0");
-    }
-    
-    if (grade >= 90) {
-        puts("A");
-    } // end if
-    else if (grade >= 80) {
-        puts("B");
-    } // end else if
-    else if (grade >= 70) {
-        puts("C");
-    } // end else if
-    else if (grade >= 60) {
-        puts("D");
-    } // end else if
     else {
-        puts("F");
-    } // end else
+        if (grade >= 90) {
+            puts("A");
+        } // end if
+        else if (grade >= 80) {
+            puts("B");
+        } // end else if
+        else if (grade >= 70) {
+            puts("C");
+        } // end else if
+        else if (grade >= 60) {
+            puts("D");
+        } // end else if
+        else {
+            puts("F");
+        } // end else
+    }
+
+    
 
 } // end function main
