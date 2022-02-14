@@ -7,6 +7,13 @@ int main(void) {
  
     printf("Enter the grade: "); // prompt
     scanf("%d", &grade); // read an integer
+    if (grade > 100) {
+        puts("The grade is greater than 100");
+    }
+    
+    if (grade < 0) {
+        puts("The grade is les than 0");
+    }
     
     if (grade >= 90) {
         puts("A");
