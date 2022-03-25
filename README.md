@@ -16,6 +16,8 @@ Assignments and exercises from my college courses.
   - Windows Forms
 - CS 314 - Object Oriented Programming in Java
   - Java
+- CS 315 - Operating Systems
+  - Python
 - CS 319 - Web Page Programming
   - Javascript
 - CS 365 - Program Language Systems
