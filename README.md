@@ -8,6 +8,7 @@ Assignments and exercises from my college courses.
   - Python
 - CS 225 - Secure Programming
   - C
+  - Python
 - CS 245 - Assembly Language
   - Assembly
 - CS 313 - Object Oriented Programming in C#
