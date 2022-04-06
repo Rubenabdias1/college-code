@@ -1,0 +1,3 @@
+: WEDGE 0 DO I 1 + 0 DO ." *"  LOOP CR LOOP .S ; ( LIMIT -- )
+
+10 WEDGE

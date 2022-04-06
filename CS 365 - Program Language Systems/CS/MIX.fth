@@ -1,0 +1,4 @@
+: MIX .S DUP DUP ROT 2SWAP SWAP .S ; ( n1 n2 n4 n4 n4 n3 )
+
+
+2 3 4 5 MIX CR

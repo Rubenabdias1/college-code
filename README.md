@@ -23,3 +23,4 @@ Assignments and exercises from my college courses.
 - CS 365 - Program Language Systems
   - Python
   - C++
+  - Forth
