@@ -21,6 +21,9 @@ Assignments and exercises from my college courses.
   - Python
 - CS 319 - Web Page Programming
   - Javascript
+- CS 340 - Database Management
+  - Python
+  - SQLite
 - CS 365 - Program Language Systems
   - Python
   - C++
