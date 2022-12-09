@@ -7,11 +7,11 @@ def connect():
     conn.commit()
     conn.close()
 
-def insert(title,author,year,isbn):
+def insert(name,price,inventory,taxable):
     conn=sqlite3.connect("restaurant.db")
-    # cur=conn.cursor()
-    # cur.execute("INSERT INTO book VALUES (NULL,?,?,?,?)",(title,author,year,isbn))
-    # conn.commit()
+    cur=conn.cursor()
+    cur.execute("INSERT INTO FoodItem VALUES (NULL,?,?,?,?,?)",(name,price,inventory,taxable, "A"))
+    conn.commit()
     conn.close()
     view()
 
@@ -23,26 +23,26 @@ def view():
     conn.close()
     return rows
 
-def search(title="",author="",year="",isbn=""):
+def search(name="",price="",inventory="",taxable=""):
     conn=sqlite3.connect("restaurant.db")
-    # cur=conn.cursor()
-    # cur.execute("SELECT * FROM book WHERE title=? OR author=? OR year=? OR isbn=?", (title,author,year,isbn))
-    # rows=cur.fetchall()
+    cur=conn.cursor()
+    cur.execute("SELECT * FROM FoodItem WHERE name=? OR price=? OR inventory=? OR taxable=?", (name,price,inventory,taxable))
+    rows=cur.fetchall()
     conn.close()
     return rows
 
 def delete(id):
     conn=sqlite3.connect("restaurant.db")
-    # cur=conn.cursor()
-    # cur.execute("DELETE FROM book WHERE id=?",(id,))
-    # conn.commit()
+    cur=conn.cursor()
+    cur.execute("DELETE FROM FoodItem WHERE id=?",(id,))
+    conn.commit()
     conn.close()
 
-def update(id,title,author,year,isbn):
+def update(id,name,price,inventory,taxable):
     conn=sqlite3.connect("restaurant.db")
-    # cur=conn.cursor()
-    # cur.execute("UPDATE book SET title=?, author=?, year=?, isbn=? WHERE id=?",(title,author,year,isbn,id))
-    # conn.commit()
+    cur=conn.cursor()
+    cur.execute("UPDATE FoodItem SET name=?, price=?, inventory=?, taxable=? WHERE id=?",(name,price,inventory,taxable,id))
+    conn.commit()
     conn.close()
 
 connect()
@@ -50,4 +50,4 @@ connect()
 #delete(3)
 #update(4,"The moon","John Smooth",1917,99999)
 print(view())
-# print(search(author="John Smooth"))
+# print(search(price="John Smooth"))

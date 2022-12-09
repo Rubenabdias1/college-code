@@ -5,6 +5,7 @@ def get_selected_row(event):
     global selected_tuple
     index=list1.curselection()[0]
     selected_tuple=list1.get(index)
+    print(selected_tuple)
     e1.delete(0,END)
     e1.insert(END,selected_tuple[1])
     e2.delete(0,END)
@@ -31,6 +32,8 @@ def add_command():
 
 def delete_command():
     backend.delete(selected_tuple[0])
+    index=list1.curselection()[0]
+    list1.delete(index, index)
 
 def update_command():
     backend.update(selected_tuple[0],name_text.get(),price_double.get(),inventory_int.get(),taxable_boolean.get())
