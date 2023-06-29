@@ -28,3 +28,4 @@ Assignments and exercises from my college courses.
   - Python
   - C++
   - Forth
+- CS 380 - Introduction to Machine Learning
